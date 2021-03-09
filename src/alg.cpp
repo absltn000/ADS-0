@@ -12,5 +12,5 @@ int gcd(int a, int b) {
 		a=b;
 		b=t
 	}
-	cout << a;
+	return a;
 }
