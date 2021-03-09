@@ -2,15 +2,15 @@
 
 int gcd(int a, int b) {
  if (a < b) {
-  int t = a;
-  a = b;
-  b = t;
+ int t = a;
+ a = b;
+ b = t;
  }
  while (b != 0) {
-  a = a % b;
-  int t = a;
-  a = b;
-  b = t;
+ a = a % b;
+ int t = a;
+ a = b;
+ b = t;
  }
  return a;
  }
