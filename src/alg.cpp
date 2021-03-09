@@ -1,12 +1,16 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
-if (a < b)
-		swap(a, b);
-	while (b != 0)
-	{
+	if (a < b){
+		int t=a;
+		a=b;
+		b=t;
+	}
+	while (b != 0){
 		a = a % b;
-		swap(a, b);
+		int t=a;
+		a=b;
+		b=t
 	}
 	cout << a;
 }
