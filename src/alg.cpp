@@ -10,7 +10,7 @@ int gcd(int a, int b) {
 		a = a % b;
 		int t = a;
 		a = b;
-		b = t
+		b = t;
 	}
 	return a;
 }
